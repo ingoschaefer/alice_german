@@ -32,7 +32,7 @@ cp "../aboutAlice_German.png" edu/cmu/cs/stage3/alice/authoringtool/images/
 cp ../German.properties edu/cmu/cs/stage3/lang/
 
 echo "builing new jar file"
-jar cf ../alice.jar Manifest -C . *
+jar cf ../alice.jar -C . *
 
 cd ..
 echo "now patching Alice2.4.app"
