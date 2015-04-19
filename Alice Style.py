@@ -30,7 +30,7 @@ execfile( standardResourcesFile.getAbsolutePath() )
 
 formatMap = {
 	edu.cmu.cs.stage3.alice.core.response.MoveAnimation : "<<<subject>>> bewege <<direction>><<amount>>",
-	edu.cmu.cs.stage3.alice.core.response.MoveTowardAnimation : "<<<subject>>> bewege <<amount>> zu <<target>>",
+	edu.cmu.cs.stage3.alice.core.response.MoveTowardAnimation : "<<<subject>>> bewege <<amount>> in Richtung <<target>>",
 	edu.cmu.cs.stage3.alice.core.response.MoveAwayFromAnimation : "<<<subject>>> bewege <<amount>> weg von <<target>>",
 	edu.cmu.cs.stage3.alice.core.response.TurnAnimation : "<<<subject>>> drehe <<direction>><<amount>>",
 	edu.cmu.cs.stage3.alice.core.response.RollAnimation : "<<<subject>>> rolle <<direction>><<amount>>",
@@ -46,7 +46,7 @@ formatMap = {
 	edu.cmu.cs.stage3.alice.core.response.TurnAwayFromConstraint : "<<<subject>>> wird gezwungen, vom <<target>> wegzusehen",
 	edu.cmu.cs.stage3.alice.core.response.GetAGoodLookAtAnimation : "<<<subject>>> schaue zu <<target>>",
 	edu.cmu.cs.stage3.alice.core.response.StandUpAnimation : "<<<subject>>> aufstehen",
-	edu.cmu.cs.stage3.alice.core.response.PositionAnimation : "<<<subject>>> bewege zu <<asSeenBy>>",
+	edu.cmu.cs.stage3.alice.core.response.PositionAnimation : "<<<subject>>> bewege zum Objekt <<asSeenBy>>",
 	edu.cmu.cs.stage3.alice.core.response.PlaceAnimation : "<<<subject>>> caitlin move to <<amount>><<spatialRelation>><<asSeenBy>>",
 	edu.cmu.cs.stage3.alice.core.response.QuaternionAnimation : "<<<subject>>> ausrichten nach <<asSeenBy>>",
 	edu.cmu.cs.stage3.alice.core.response.PointOfViewAnimation : "<<<subject>>> setze Blickwinkel auf <<asSeenBy>>",
