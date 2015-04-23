@@ -265,7 +265,7 @@ nameMap = {
 
 	"edu.cmu.cs.stage3.alice.core.behavior.WorldStartBehavior" : "Wenn die Welt beginnt",
 	"edu.cmu.cs.stage3.alice.core.behavior.WorldIsRunningBehavior" : "Waehrend die Welt laeuft",
-	"edu.cmu.cs.stage3.alice.core.behavior.KeyClickBehavior" : "Wenn <keyCode> eingegeben ist",
+	"edu.cmu.cs.stage3.alice.core.behavior.KeyClickBehavior" : "Wenn <keyCode> gedrückt wird",
 	"edu.cmu.cs.stage3.alice.core.behavior.KeyIsPressedBehavior" : "Waehrend <keyCode> gedrueckt ist",
 	"edu.cmu.cs.stage3.alice.core.behavior.MouseButtonClickBehavior" : "Wenn <mouse> auf <onWhat> klickt",
 	"edu.cmu.cs.stage3.alice.core.behavior.MouseButtonIsPressedBehavior" : "Waehrend <mouse> auf <onWhat> gedrueckt ist",
